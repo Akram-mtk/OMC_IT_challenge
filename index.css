@@ -1,0 +1,54 @@
+
+.main{
+    padding: 40px;
+}
+
+.speaker{
+    display: flex;
+    margin: 30px;
+}
+
+.speaker_info>*{
+    margin-top: 15px;
+}
+
+.speaker img{
+    width: 30%;
+}
+
+
+.place{
+    display: flex;
+}
+
+iframe{
+    height: 80%;
+    border: none;
+    margin-right: 10px;
+}
+
+
+
+
+
+@media (max-width:600px){
+    .main{
+        padding: 0px;
+    }
+
+    .speaker{
+        flex-direction: column-reverse;
+    }
+    .speaker img{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .place{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .place>*{
+        margin: 10px;
+    }
+}
